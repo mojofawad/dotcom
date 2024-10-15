@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dotcom", "Dotcom", "{77ADE203-6702-4B4D-A498-B1154EAFCF97}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{C9528C2A-69D1-4CDD-AEA1-56253CD6206A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mojofawad.Shared", "..\..\mojofawad\src\mojofawad.Shared\mojofawad.Shared.csproj", "{2D1C7492-05F1-4E96-9192-1EC52F1F9FAF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{11F0DB55-1CDB-49ED-9835-9F828411BF28}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dotcom.Tests", "..\tests\Dotcom.Tests\Dotcom.Tests.csproj", "{4839A80D-A657-4C6A-BA1D-46A62D6392AB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2D1C7492-05F1-4E96-9192-1EC52F1F9FAF} = {C9528C2A-69D1-4CDD-AEA1-56253CD6206A}
+		{4839A80D-A657-4C6A-BA1D-46A62D6392AB} = {11F0DB55-1CDB-49ED-9835-9F828411BF28}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2D1C7492-05F1-4E96-9192-1EC52F1F9FAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D1C7492-05F1-4E96-9192-1EC52F1F9FAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D1C7492-05F1-4E96-9192-1EC52F1F9FAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D1C7492-05F1-4E96-9192-1EC52F1F9FAF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4839A80D-A657-4C6A-BA1D-46A62D6392AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4839A80D-A657-4C6A-BA1D-46A62D6392AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4839A80D-A657-4C6A-BA1D-46A62D6392AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4839A80D-A657-4C6A-BA1D-46A62D6392AB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
